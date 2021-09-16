@@ -25,12 +25,7 @@ h2{
 }
 
 em{
-    color: rgb(204, 202, 202);
-}
-
-p{
-    color: rgb(204, 202, 202);
-    text-align: left;
+    color: rgb(172, 172, 172);
 }
 
 h3{
@@ -40,10 +35,10 @@ h3{
 
 /* intestazione */
 header{
-    background-color: rgb(0, 3, 48);
+    background-color: black;
     padding: 20px 20px;
     text-align: center;
-    border-bottom: solid 1px rgb(0, 3, 48);
+    border-bottom: solid 1px black;
     border-radius: 0 0 20px 20px;
     
 }
@@ -61,15 +56,15 @@ header{
 }
 
 #logo{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 a{
     color: white;
     text-decoration: none;
-    font-size: 25px;
-    padding: 20px 10px 0 10px;
+    font-size: 30px;
+    padding: 0 10px;
 }
 
 a:hover{
@@ -99,10 +94,10 @@ a:hover{
 
 /* Seconda parte */
 
-/* .container_2{
-     debug 
-    background-color: blue;
-} */
+.container_2 p{
+    color: rgb(172, 172, 172);
+    text-align: left;
+}
 
 .container_2 .clearfix::after{
     /* debug */
@@ -131,18 +126,25 @@ a:hover{
 }
 
 .riquadro_centrale{
-    /* debug */
-    background-color: cyan;
     float: left;
     width: 58%;
-    height: 700px;
     margin: 0 1% 20px;
+}
+
+.riquadro_centrale img{
+    border: solid 1px #b8bbc2;
+    border-radius: 10px;
+    width: 100%;
 }
 
 /* footer */
 footer{
     /* debug */
-    margin-top: 10px;
-    background-color: rgb(82, 29, 143);
-    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: large;
+}
+
+#heart{
+    color: red;
 }
