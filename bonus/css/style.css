@@ -46,7 +46,7 @@ header{
     margin-bottom: 20px;
 }
 
-aside{
+.riquadro_laterale{
     /* debug */
     background-color: cyan;
     float: left;
