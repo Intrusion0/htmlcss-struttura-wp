@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
 *{
     margin: 0;
@@ -9,15 +10,41 @@
 body{
     width: 70%;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+em{
+    color: rgb(204, 202, 202);
+}
+
+p{
+    color: rgb(204, 202, 202);
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    margin: 10px 0;
 }
 
 /* intestazione */
 header{
-    background-color: black;
+    background-color: rgb(0, 3, 48);
     padding: 20px 20px;
     text-align: center;
-    border-bottom: solid 1px black;
-    border-radius: 0 0 30px 30px;
+    border-bottom: solid 1px rgb(0, 3, 48);
+    border-radius: 0 0 20px 20px;
     
 }
 
@@ -43,7 +70,6 @@ a{
     text-decoration: none;
     font-size: 25px;
     padding: 20px 10px 0 10px;
-    font-family: 'Roboto', sans-serif;
 }
 
 a:hover{
@@ -53,23 +79,30 @@ a:hover{
 
 /* Prima parte */
 .container{
-    /* debug */
-    /* background-color: gold; */
+    position: relative;
     margin: 30px 0;
 }
 
 .container img{
     width: 100%;
-    height: 100%;
     border: solid 1px black;
     border-radius: 10px;
 }
 
-/* Seconda parte */
-.container_2{
-    /* debug */
-    background-color: blue;
+.text{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: white;
+    font-size: 20px;
 }
+
+/* Seconda parte */
+
+/* .container_2{
+     debug 
+    background-color: blue;
+} */
 
 .container_2 .clearfix::after{
     /* debug */
@@ -79,21 +112,22 @@ a:hover{
 }
 
 .riquadro_sopra{
-    /* debug */
-    background-color: cyan;
-    height: 100px;
     width: 100%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .riquadro_laterale{
-    /* debug */
-    background-color: cyan;
     float: left;
     width: 20%;
-    height: 700px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.riquadro_laterale img{
+    border: solid 1px #210e60;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .riquadro_centrale{
