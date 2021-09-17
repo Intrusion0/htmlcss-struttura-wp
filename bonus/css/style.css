@@ -8,9 +8,12 @@
 }
 
 body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#centratura{
     width: 70%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
 }
 
 h1{
